@@ -1,0 +1,83 @@
+/* Body Styling for Background Color */
+body {
+  background-color: #f0f8ff; /* Light blue background for a soft look */
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styling with Gradient Background */
+.bmi-calculator-container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient effect */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  color: white;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.bmi-calculator-container:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+}
+
+/* Title Styling with Color Accent */
+.bmi-calculator-container h2 {
+  font-size: 26px;
+  color: #ffdd57; /* Yellow color for an eye-catching title */
+  margin-bottom: 25px;
+}
+
+/* Form Styling */
+.bmi-calculator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bmi-input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.bmi-input:focus {
+  background-color: #f0f0f0; /* Light gray background on focus */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.bmi-button {
+  padding: 12px;
+  background-color: #ff6f61; /* Vivid coral color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.bmi-button:hover {
+  background-color: #e65c50; /* Darker shade of coral on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Result Styling with Highlighted Text */
+.bmi-result {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ffdd57; /* Yellow color to match the title */
+  font-weight: bold;
+}
+
+.bmi-result p {
+  margin: 5px 0;
+}
