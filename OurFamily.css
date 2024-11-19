@@ -1,0 +1,32 @@
+.our-family-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px; /* Space between each member section */
+}
+
+.member-container {
+  display: flex;
+  flex-direction: row; /* Default: image on the right, description on the left */
+  align-items: center;
+  gap: 20px; /* Space between description and image */
+}
+
+.member-container.reverse-layout {
+  flex-direction: row-reverse; /* Second photo: image on the left, description on the right */
+}
+
+.member-container.default-layout {
+  flex-direction: row; /* Third photo: image on the right, description on the left */
+}
+
+.description-container {
+  max-width: 500px; /* Adjust max-width for better readability */
+  text-align: left;
+}
+
+.family-image {
+  width: 150px; /* Adjust image size as needed */
+  height: auto;
+  border-radius: 8px; /* Add border-radius for rounded images */
+}
