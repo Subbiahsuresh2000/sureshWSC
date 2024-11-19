@@ -1,0 +1,25 @@
+/* src/Components/ChatBox.css */
+.chatbox {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(75, 5, 225, 0.1);
+  }
+  
+  .messages {
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .default-message {
+    cursor: pointer;
+    font-size: small;
+    color: blue; /* Change to blue for clickable messages */
+  }
+  
+  .client-message {
+    text-align: right;
+    color: green; /* You can change this color for user messages */
+  }
+  
